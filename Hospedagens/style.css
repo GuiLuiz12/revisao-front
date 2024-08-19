@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Assets/assets/Lato/Lato-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.div-azul {
+    width: 100%;
+    height: 461px;
+    background: linear-gradient(to right, #1E52B4, #002777);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-header-left {
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.div-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.div-items-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-white-texts {
+    display: flex;
+    gap: 15px;
+}
+
+.white-texts {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.button-cadastrar {
+    padding: 10px 20px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.title-white {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    width: 435px;
+}
+
+.subtitle-white {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 414px;
+}
+
+.section-main {
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    width: 435px;
+}
+
+.section-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.div-mapa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 379px;
+    height: 334px;
+}
+
+.div-mapa img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    flex: 0 1 calc(25% - 20px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 85%;
+}
+
+.title-black{
+    font-size: 28px;
+    width: 455px;
+    height: 84px;
+}
+
+.title-green{
+    font-size: 28px;
+    color: green;
+}
+
+.title-blue{
+    font-size: 28px;
+    color: blue;
+}
